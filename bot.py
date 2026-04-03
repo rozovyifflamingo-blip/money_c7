@@ -6,8 +6,7 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, InlineQuery, InlineQueryResultCachedPhoto
 
 # ==============================
-# 👇 ВСТАВЬ ТОКЕН СЮДА
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8652922599:AAE61SmbMIs9koGeiQXrXa9GIFRtbdRYaSA")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 # ==============================
 
 STORAGE_FILE = "images.json"
